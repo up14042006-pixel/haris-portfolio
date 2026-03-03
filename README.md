@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -37,7 +38,23 @@ header{
 header h1{
     font-size:40px;
 }
+/* ===== LOGO ===== */
+.logo{
+    width:120px;
+    border-radius:50%;
+    margin-bottom:20px;
+    animation: floatLogo 3s ease-in-out infinite;
+}
 
+/* Floating Animation */
+@keyframes floatLogo{
+    0%{ transform: translateY(0px); }
+    50%{ transform: translateY(-15px); }
+    100%{ transform: translateY(0px); }
+}
+body.dark .logo{
+    box-shadow:0 0 20px #38bdf8;
+}
 header p{
     margin-top:10px;
     font-size:18px;
@@ -181,6 +198,7 @@ footer{
 </nav>
 
 <header>
+    <img src="./mylogo.png" alt="Haris Logo" class="logo">
     <h1>Hi, I'm Haris 👋</h1>
     <p id="typing"></p>
 </header>
@@ -270,15 +288,3 @@ function showMessage(e){
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
