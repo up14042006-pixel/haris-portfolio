@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -202,12 +203,13 @@ footer{
 <section id="projects">
     <h2>My Projects</h2>
     <div class="project-card">
-        <h3>First HTML Website</h3>
+       <a href="./Index.html" target="_blank"> <h3>First HTML Website</h3></a>
         <p>My beginner website project.</p>
     </div>
     <div class="project-card">
-        <h3>Portfolio Website</h3>
+        <a href="https://github.com/haris-portfolio" target="_blank"><h3>Portfolio Website</h3></a>
         <p>This professional animated portfolio.</p>
+
     </div>
 </section>
 
@@ -223,7 +225,7 @@ footer{
 </section>
 
 <footer>
-    © 2026 Haris Portfolio | Made with ❤️
+    © 2026 Haris Portfolio | Made With Html css
 </footer>
 
 <script>
@@ -269,3 +271,33 @@ function showMessage(e){
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
